@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1 span {
+  font-size: 40px;
+  color: #4cd137;
+}
+.blue_highlight {
+  color: #4cd137;
+  font-size: 45px;
+}
+.half_width {
+  width: 40%;
+  float: left;
+  padding-left: 2%;
+  margin-left: 5%;
+  transition: all 5s;
+}
+p {
+  color: rgb(33, 31, 31);
+  text-align: justify;
+}
+.half_width img {
+  width: 100%;
+}
+.background {
+  background-image: url(./Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #fa9d78, #f54f31);
+  padding: 4px 8px;
+  border-radius: 2px;
+  color: white;
+  font-weight: 450;
+}
+section {
+  height: 100vh;
+}
+.half_width_1 {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  padding-bottom: 30%;
+  transition: all 0.5s;
+}
+a#change_color:hover {
+  background-image: linear-gradient(90deg, #43e2ce, #3899f6);
+  color: #000;
+}
+.half_width_1 img {
+  width: 100%;
+}
+.half_width_1 h1 {
+  background-image: linear-gradient(45deg, #fa9d78, #f54f31);
+  padding: 0px 10px;
+  transition: all 4s;
+}
+.background_1 {
+  background-image: url(./Images/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.link_button_1 {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #fa9d78, #f54f31);
+  padding: 4px 8px;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 450;
+}
+a#change_color1:hover {
+  background-image: linear-gradient(90deg, #43e2ce, #3899f6);
+  color: #000;
+}
+.background_2 {
+  background-image: url(./Images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .purple {
+  color: ;
+} */
+
+.single_experience p {
+  text-align: left;
+}
+.single_experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 4px;
+  height: 40%;
+}
+.single_experience_1 {
+  box-shadow: 10px 10px 40px #f54f31;
+  border-radius: 4px;
+  height: 40%;
+}
+#full_stack {
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, #fa9d78, #f54f31);
+  border-image-slice: 1;
+  background-color: gray;
+}
+#child {
+  color: gray;
+}
+#child h1 {
+  color: #000;
+}
+#child {
+  border-left: 6px solid;
+  background-image: linear-gradient(180deg, #fa9d78, #f54f31);
+  border-image-slice: 1;
+  background-color: gray;
+}
+footer {
+  background-image: linear-gradient(90deg, #43e2ce, #3899f6);
+}
+footer p {
+  font-size: 12.5px;
+  text-align: center;
+  color: #000;
+}
